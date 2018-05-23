@@ -1,0 +1,41 @@
+{
+  "name": "concat-each",
+  "version": "1.0.0",
+  "description": "Iterates nested loops and concatenates values onto an Array or Set.",
+  "keywords": [
+    "concat",
+    "concatenate",
+    "each",
+    "array",
+    "Set"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/concat-each",
+  "repository": "lamansky/concat-each",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "neach": "^1.0.0",
+    "sbo": "^1.1.0",
+    "vadd": "^1.0.0",
+    "vfn": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
